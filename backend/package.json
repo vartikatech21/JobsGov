@@ -1,0 +1,25 @@
+{
+  "name": "jobsgov-backend",
+  "version": "1.0.0",
+  "description": "Government job guidance agent backend",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": ["government", "jobs", "agent", "guidance"],
+  "author": "vartikatech21",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
